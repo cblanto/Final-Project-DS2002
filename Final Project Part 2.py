@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-TOKEN = ('MTE4MTAxOTkyNjMyNTEwODc0Ng.G84xfp.dA2rSlO8639QUo29ivqiqpap66pTTKuUnT0x5Q')
+TOKEN = ('Discord Token')
 # Initialize variables for chat history
 explicit_input = ""
 chatgpt_output = 'Chat log: /n'
@@ -124,4 +124,4 @@ async def shutdown(context):
 #load data in a stats table
 
 
-client.run("MTE4MTAxOTkyNjMyNTEwODc0Ng.G84xfp.dA2rSlO8639QUo29ivqiqpap66pTTKuUnT0x5Q")
+client.run("Discord Token")
