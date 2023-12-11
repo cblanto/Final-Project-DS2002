@@ -154,7 +154,7 @@ def retrieve_data():
 stored_data = retrieve_data()
 
 print("First 5 records:")
-pprint(stored_data[:12])
+pprint(stored_data[:5])
 ```
 
     First 5 records:
@@ -182,42 +182,7 @@ pprint(stored_data[:12])
       'factor': 19683,
       'pi': 3.1416434588531876,
       'time': '2023-12-08 16:27:09',
-      'timestamp': datetime.datetime(2023, 12, 8, 16, 27, 9, 231000)},
-     {'_id': ObjectId('65734419ecb133ad87a65514'),
-      'factor': 21952,
-      'pi': 3.141547099653953,
-      'time': '2023-12-08 16:28:09',
-      'timestamp': datetime.datetime(2023, 12, 8, 16, 28, 9, 394000)},
-     {'_id': ObjectId('65734455ecb133ad87a65516'),
-      'factor': 24389,
-      'pi': 3.1416336556808755,
-      'time': '2023-12-08 16:29:09',
-      'timestamp': datetime.datetime(2023, 12, 8, 16, 29, 9, 555000)},
-     {'_id': ObjectId('65734491ecb133ad87a65518'),
-      'factor': 27000,
-      'pi': 3.1415556165527665,
-      'time': '2023-12-08 16:30:09',
-      'timestamp': datetime.datetime(2023, 12, 8, 16, 30, 9, 734000)},
-     {'_id': ObjectId('657344cdecb133ad87a6551a'),
-      'factor': 29791,
-      'pi': 3.1416262207744947,
-      'time': '2023-12-08 16:31:09',
-      'timestamp': datetime.datetime(2023, 12, 8, 16, 31, 9, 874000)},
-     {'_id': ObjectId('6573450aecb133ad87a6551c'),
-      'factor': 32768,
-      'pi': 3.1415621360116797,
-      'time': '2023-12-08 16:32:09',
-      'timestamp': datetime.datetime(2023, 12, 8, 16, 32, 10, 53000)},
-     {'_id': ObjectId('65734546ecb133ad87a6551e'),
-      'factor': 35937,
-      'pi': 3.1416204800638963,
-      'time': '2023-12-08 16:33:10',
-      'timestamp': datetime.datetime(2023, 12, 8, 16, 33, 10, 238000)},
-     {'_id': ObjectId('657345adecb133ad87a65521'),
-      'factor': 39304,
-      'pi': 3.141567210886769,
-      'time': '2023-12-08 16:34:53',
-      'timestamp': datetime.datetime(2023, 12, 8, 16, 34, 53, 212000)}]
+      'timestamp': datetime.datetime(2023, 12, 8, 16, 27, 9, 231000)}]
     
 
 
